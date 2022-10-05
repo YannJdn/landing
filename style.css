@@ -1,0 +1,148 @@
+/* Write some CSS below */
+body {
+  font-family: Copperplate Normal;
+  color: #404042;
+  font-size: 20px;
+}
+
+h1, {
+  font-family: Copperplate Normal;
+  background-color: lightgrey;
+}
+
+h2, {
+  font-family: California Sun Personal Use Courant;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+h3 {
+  font-family: California Sun Personal Use Courant;
+  background-color: lightgrey;
+}
+
+a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+  background-color: black;
+  padding: 10px;
+}
+
+body {
+  font-family: Overpass;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+p {
+  color: whitesmoke;
+  opacity: .7;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/IMG_9352.JPG');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 80px;
+  margin: 0px;
+}
+
+.banner p {
+  color: white;
+  font-size: 30px;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  background-size: cover;
+    padding: 40px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container2 img {
+  width: 1440px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container4 img {
+  width: 1440px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container5 img {
+  width: 1440px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  padding: 40px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.container3 img {
+  width: 1440px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.footer {
+  background: lightgrey;
+  text-align: center;
+  padding: 24px 0;
+  width: 1440px;
+  height: 250px;
+}
+
+.footer img {
+  width: 215px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
